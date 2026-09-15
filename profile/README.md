@@ -24,8 +24,8 @@ is a dead process the desktop notices — not a crashed desktop.
 | [windows](https://github.com/wippy-windows/windows) | `windows/shell` | The Windows 95 shell on top: the pixel chrome, the Start menu, the logon screen, a declarative window SDK, Notepad, My Computer with one window per folder, Display Properties, Task Manager, desktop widgets and AntiBug (a 1995-antivirus-style test scanner). |
 | [minesweeper](https://github.com/wippy-windows/minesweeper) | `windows/minesweeper` | Minesweeper as Windows 95 had it: three levels, flags and Flag mode, chording, the smiley and the timer. The rules are a pure library with tests; the window is a declarative SDK application. |
 | [weather](https://github.com/wippy-windows/weather) | `windows/weather` | A weather window with a city search, the temperature in the tray next to the clock, and a desktop widget. Data from Open-Meteo, no key needed. |
-| aicq | `windows/aicq` | aICQ, the ICQ-style list of people and AI agents, as a separate module *(being extracted)*. |
-| app | — | The application that runs on a server: the kickside platform plus the desktop, the shell, the games and the apps from the Hub, with the logon and the SSH host *(being assembled)*. |
+| [aicq](https://github.com/wippy-windows/aicq) | `windows/aicq` | aICQ: people and AI agents in one ICQ-style contact list, messages between people, agent dialogs, and a tray item next to the clock. |
+| [app](https://github.com/wippy-windows/app) | — | The application that runs on a server: the kickside platform plus the desktop, the shell, the games and the apps from the Hub, with the logon, the SSH host (`ssh -p 2222`, one desktop per connection) and the system windows. Start here to run it. |
 | [runtime](https://github.com/wippy-windows/runtime) | — | A fork of [wippyai/runtime](https://github.com/wippyai/runtime) carrying what the desktop needs before it lands upstream: the `gfx` module (pixels over Kitty/Sixel), the `terminal.ssh` host (one desktop per SSH connection) and terminal fixes. Work lives on the `wippy-projects` branch. |
 
 Modules are published to the [Wippy Hub](https://hub.wippy.ai) under the
