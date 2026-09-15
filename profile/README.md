@@ -23,8 +23,12 @@ is a dead process the desktop notices — not a crashed desktop.
 | [tui-desktop](https://github.com/wippy-windows/tui-desktop) | The mechanics: a compositor of overlapping windows for the terminal, real programs under a PTY, one desktop per SSH connection, a command channel an agent can drive. No look of its own — a theme brings it. |
 | [windows](https://github.com/wippy-windows/windows) | The Windows 95 shell on top: the pixel chrome, the Start menu, the logon screen, a declarative window SDK, Notepad, My Computer with one window per folder, Display Properties, Task Manager, desktop widgets, aICQ (an ICQ-style list of people and AI agents) and AntiBug (a 1995-antivirus-style test scanner). |
 | [runtime](https://github.com/wippy-windows/runtime) | A fork of [wippyai/runtime](https://github.com/wippyai/runtime) carrying what the desktop needs before it lands upstream: the `gfx` module (pixels over Kitty/Sixel), the `terminal.ssh` host (one desktop per SSH connection) and terminal fixes. Work lives on the `wippy-projects` branch. |
-| minesweeper | Minesweeper as a separate module on the window SDK *(being extracted)*. |
-| weather | A weather window, a tray temperature and a desktop widget as a separate module *(being extracted)*. |
+| [minesweeper](https://github.com/wippy-windows/minesweeper) | Minesweeper as Windows 95 had it: three levels, flags and Flag mode, chording, the smiley and the timer. The rules are a pure library with tests; the window is a declarative SDK application. Hub module `windows/minesweeper`. |
+| weather | A weather window, a tray temperature and a desktop widget as a separate module *(being extracted; Hub module `windows/weather`)*. |
+| aicq | aICQ, the ICQ-style list of people and AI agents, as a separate module *(being extracted; Hub module `windows/aicq`)*. |
+
+Modules are published to the [Wippy Hub](https://hub.wippy.ai) under the
+organization `windows`.
 
 ## Running it
 
