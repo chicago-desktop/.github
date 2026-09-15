@@ -22,13 +22,16 @@ is a dead process the desktop notices — not a crashed desktop.
 |---|---|
 | [tui-desktop](https://github.com/wippy-windows/tui-desktop) | The mechanics: a compositor of overlapping windows for the terminal, real programs under a PTY, one desktop per SSH connection, a command channel an agent can drive. No look of its own — a theme brings it. |
 | [windows](https://github.com/wippy-windows/windows) | The Windows 95 shell on top: the pixel chrome, the Start menu, the logon screen, a declarative window SDK, Notepad, My Computer with one window per folder, Display Properties, Task Manager, desktop widgets, aICQ (an ICQ-style list of people and AI agents) and AntiBug (a 1995-antivirus-style test scanner). |
+| [runtime](https://github.com/wippy-windows/runtime) | A fork of [wippyai/runtime](https://github.com/wippyai/runtime) carrying what the desktop needs before it lands upstream: the `gfx` module (pixels over Kitty/Sixel), the `terminal.ssh` host (one desktop per SSH connection) and terminal fixes. Work lives on the `wippy-projects` branch. |
 | minesweeper | Minesweeper as a separate module on the window SDK *(being extracted)*. |
 | weather | A weather window, a tray temperature and a desktop widget as a separate module *(being extracted)*. |
 
 ## Running it
 
 The pixel chrome needs the runtime's `gfx` module, which is not in a Wippy
-release yet; until it is, the shell runs on a local build of the runtime.
+release yet; until it is, the shell runs on a build of the
+[runtime fork](https://github.com/wippy-windows/runtime) (`wippy-projects`
+branch).
 The mechanics (`tui-desktop`) run on a released runtime.
 
 The shell repository is private for now: it ships the original Windows 95
