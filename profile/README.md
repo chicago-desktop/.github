@@ -28,8 +28,8 @@ is a dead process the desktop notices — not a crashed desktop.
 | [app](https://github.com/wippy-windows/app) | — | The application that runs on a server: the kickside platform plus the desktop, the shell, the games and the apps from the Hub, with the logon, the SSH host (`ssh -p 2222`, one desktop per connection) and the system windows. Start here to run it. |
 | [calculator](https://github.com/wippy-windows/calculator) | `windows/calculator` | The Windows 95 Calculator: the engine as a pure library, the window on the shell SDK. |
 | [network](https://github.com/wippy-windows/network) | `windows/network` | Network Neighborhood: the runtime's cluster as computers on a network, with roles and the leader. |
-| antibug | `windows/antibug` | AntiBug, a test scanner in the style of a 1995 antivirus *(being extracted from the shell)*. |
-| appwiz | `windows/appwiz` | Add/Remove Programs: the application's modules, installed and removed from the Start menu *(being extracted from the shell)*. |
+| [antibug](https://github.com/wippy-windows/antibug) | `windows/antibug` | AntiBug: a test scanner in the style of a 1995 antivirus — the application's tests and the targets it declares, findings are failed tests. Administrators only. |
+| [appwiz](https://github.com/wippy-windows/appwiz) | `windows/appwiz` | Add/Remove Programs: the application's wippy modules, installed and removed from the Start menu. Administrators only. |
 | [module-template](https://github.com/wippy-windows/module-template) | `windows/module-template` | The template for a new module: a sample window with tests, the harness against the Hub, the SDK guide and the agent skill. "Use this template", `make init`, write your window. |
 | [runtime](https://github.com/wippy-windows/runtime) | — | A fork of [wippyai/runtime](https://github.com/wippyai/runtime) carrying what the desktop needs before it lands upstream: the `gfx` module (pixels over Kitty/Sixel), the `terminal.ssh` host (one desktop per SSH connection) and terminal fixes. Work lives on the `wippy-projects` branch; its [releases](https://github.com/wippy-windows/runtime/releases) are built by CI for Linux, macOS and Windows. |
 
