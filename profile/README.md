@@ -3,6 +3,8 @@
 **A desktop that runs entirely inside a terminal — over plain SSH, no
 browser, no X server, no VM — in the look of the mid-nineties desktops.**
 
+![The Chicago desktop: Claude Code, Task Manager, Add/Remove Programs, aICQ, Date/Time and the desktop widgets](https://raw.githubusercontent.com/chicago-desktop/app/main/docs/screenshot.png)
+
 The window frames, the Start menu, the taskbar with a tray and a clock,
 desktop icons, dialogs and menus are drawn with real pixels (the Kitty graphics protocol or
 Sixel), so WezTerm, kitty, foot, mlterm or any Sixel-capable terminal show the
