@@ -32,8 +32,8 @@ is a dead process the desktop notices — not a crashed desktop.
 | [appwiz](https://github.com/wippy-windows/appwiz) | `windows/appwiz` | Add/Remove Programs: the application's wippy modules, installed and removed from the Start menu. Administrators only. |
 | [regedit](https://github.com/wippy-windows/regedit) | `windows/regedit` | The Registry Editor: the runtime's registry as a tree, read-only. Administrators only. |
 | [datetime](https://github.com/wippy-windows/datetime) | `windows/datetime` | Date/Time: the calendar, the analog clock and the time zone, opened by the taskbar clock. |
-| taskman | `windows/taskman` | Task Manager: applications, processes, performance and the node on four tabs *(being extracted from the shell)*. |
-| run | `windows/run` | Run…: a command line that opens in its own Bash window *(being extracted from the shell)*. |
+| [taskman](https://github.com/wippy-windows/taskman) | `windows/taskman` | Task Manager: applications, processes, performance and the node on four tabs, End Task and End Process. Administrators only. |
+| [run](https://github.com/wippy-windows/run) | `windows/run` | Run…: a command line that opens in its own Bash window, at the root of the Start menu. |
 | [module-template](https://github.com/wippy-windows/module-template) | `windows/module-template` | The template for a new module: a sample window with tests, the harness against the Hub, the SDK guide and the agent skill. "Use this template", `make init`, write your window. |
 | [runtime](https://github.com/wippy-windows/runtime) | — | A fork of [wippyai/runtime](https://github.com/wippyai/runtime) carrying what the desktop needs before it lands upstream: the `gfx` module (pixels over Kitty/Sixel), the `terminal.ssh` host (one desktop per SSH connection) and terminal fixes. Work lives on the `wippy-projects` branch; its [releases](https://github.com/wippy-windows/runtime/releases) are built by CI for Linux, macOS and Windows. |
 
